@@ -45,7 +45,7 @@ const FindUser : React.FC<TFindUserProps> = (props) => {
 
             :
             <div>
-                {props.FindUserIsFetching ? <Preloader size={"small"}/>
+                {props.FindUserIsFetching ? <Preloader />
                 : <div>
                     <div className={FUStyles.foundArea}>
                     {FoundedUsers &&
